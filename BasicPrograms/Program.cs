@@ -20,6 +20,9 @@ namespace BasicPrograms
                     Console.WriteLine($"Head occurance percentage is: {tuple.Item1}%");
                     Console.WriteLine($"Tail occurance percentage is: {tuple.Item2}%");
                     break;
+                case 2:
+                    new LeapYear().Check();
+                    break;
             }
         }
     }

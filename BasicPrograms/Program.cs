@@ -23,6 +23,9 @@ namespace BasicPrograms
                 case 2:
                     new LeapYear().Check();
                     break;
+                case 3:
+                    new PowerOfTwo().PrintTable();
+                    break;
             }
         }
     }

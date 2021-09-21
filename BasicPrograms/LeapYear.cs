@@ -7,7 +7,7 @@ namespace BasicPrograms
     class LeapYear
     {
         // initialize constants
-        int NUMBER_OF_DIGITS = 6;
+        int NUMBER_OF_DIGITS = 4;
 
         // Randome year generator
         Random random = new Random();
@@ -16,7 +16,7 @@ namespace BasicPrograms
         public void Check()
         {
             // random year creation
-            int testYear = random.Next(1000,1000000);
+            int testYear = random.Next(1000,10000);
 
             // check whether the test year has 4 digits and is leap year or not
             if (((testYear >= Math.Pow(10, NUMBER_OF_DIGITS-1)) && (testYear < Math.Pow(10,NUMBER_OF_DIGITS))))

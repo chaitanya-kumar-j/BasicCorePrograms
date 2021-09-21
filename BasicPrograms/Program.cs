@@ -26,6 +26,9 @@ namespace BasicPrograms
                 case 3:
                     new PowerOfTwo().PrintTable();
                     break;
+                case 4:
+                    new HarmonicNumber().PrintNumber();
+                    break;
             }
         }
     }

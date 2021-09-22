@@ -39,7 +39,7 @@ namespace BasicPrograms
                     new Numbers().Swap(10,20);
                     break;
                 case 8:
-                    Console.WriteLine("Still Working..");
+                    new EvenOrOdd().Check(8);
                     break;
                 case 9:
                     Console.WriteLine("Still Working..");

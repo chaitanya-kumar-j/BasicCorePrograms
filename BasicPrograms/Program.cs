@@ -29,6 +29,24 @@ namespace BasicPrograms
                 case 4:
                     new HarmonicNumber().PrintNumber();
                     break;
+                case 5:
+                    Console.WriteLine("Still Working..");
+                    break;
+                case 6:
+                    new QuotientAndRemainder().Calculate(206,11);
+                    break;
+                case 7:
+                    Console.WriteLine("Still Working..");
+                    break;
+                case 8:
+                    Console.WriteLine("Still Working..");
+                    break;
+                case 9:
+                    Console.WriteLine("Still Working..");
+                    break;
+                case 10:
+                    Console.WriteLine("Still Working..");
+                    break;
             }
         }
     }

@@ -36,7 +36,7 @@ namespace BasicPrograms
                     new QuotientAndRemainder().Calculate(206,11);
                     break;
                 case 7:
-                    Console.WriteLine("Still Working..");
+                    new Numbers().Swap(10,20);
                     break;
                 case 8:
                     Console.WriteLine("Still Working..");

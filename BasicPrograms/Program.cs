@@ -45,7 +45,7 @@ namespace BasicPrograms
                     Console.WriteLine("Still Working..");
                     break;
                 case 10:
-                    Console.WriteLine("Still Working..");
+                    new GreatestNumber().Check();
                     break;
             }
         }

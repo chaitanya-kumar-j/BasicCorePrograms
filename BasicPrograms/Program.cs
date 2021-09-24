@@ -37,7 +37,7 @@ namespace BasicPrograms
                     new QuotientAndRemainder().Calculate(206,11);
                     break;
                 case 7:
-                    new Numbers().Swap(10,20);
+                    new Numbers().Swap();
                     break;
                 case 8:
                     new EvenOrOdd().Check(8);

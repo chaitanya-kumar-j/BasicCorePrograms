@@ -29,6 +29,9 @@ namespace BasicPrograms
                 case 4:
                     new HarmonicNumber().PrintNumber();
                     break;
+                case 5:
+                    new PrimeFactors().Factorizaton();
+                    break;
             }
         }
     }

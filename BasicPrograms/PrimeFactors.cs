@@ -6,30 +6,33 @@ namespace BasicPrograms
 {
     class PrimeFactors
     {
-        // initialize constants
-        int N = 100;
         public void Factorizaton()
         {
-            int n = N, j = 0;
-            while (j < n)
+            // get number from user
+            Console.WriteLine("Enter the number to which factors to be found");
+            int number = Convert.ToInt32(Console.ReadLine());
+            while (number % 2 == 0)
             {
-                int i = j;
-                if (i == 0 || i == 1)
+                Console.Write(2 + " ");
+                number /= 2;
+            }
+
+            // n must be odd at this point. So we can
+            // skip one element (Note i = i +2)
+            for (int i = 3; i*i <= number; i += 2)
+            {
+                // While i divides n, print i and divide n
+                while (number % i == 0)
                 {
-                    i++;
-                    break;
+                    Console.Write(i + " ");
+                    number /= i;
                 }
-                if (i > 1 & n % i != 0)
-                {
-                    while (i < n)
-                    {
-                        if (i > 1 & n % i != 0)
-                        {
-                            
-                        }
-                    }
-                }                
-            }            
+            }
+
+            // This condition is to handle the case whien
+            // n is a prime number greater than 2
+            if (number > 2)
+                Console.Write(number);
         }
     }
 }

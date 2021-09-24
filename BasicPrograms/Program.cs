@@ -42,7 +42,7 @@ namespace BasicPrograms
                     new EvenOrOdd().Check(8);
                     break;
                 case 9:
-                    Console.WriteLine("Still Working..");
+                    new VowelOrConsonant().Check();
                     break;
                 case 10:
                     Console.WriteLine("Still Working..");

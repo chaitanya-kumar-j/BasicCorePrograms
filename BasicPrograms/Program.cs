@@ -31,6 +31,7 @@ namespace BasicPrograms
                     break;
                 case 5:
                     Console.WriteLine("Still Working..");
+                    new PrimeFactors().Factorizaton();
                     break;
                 case 6:
                     new QuotientAndRemainder().Calculate(206,11);
